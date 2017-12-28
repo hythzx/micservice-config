@@ -7,4 +7,4 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: aiyun123!
+                secret: this-is-spring-boot-jwt-key
