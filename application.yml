@@ -1,10 +1,26 @@
 configserver:
     name: JHipster Registry config server
-    status: Connected to the JHipster Registry config server, using https://github.com/jhipster/jhipster-registry-sample-config !
+    status: 艾思吉奥生产环境启动成功
 
 # Default JWT secret token (to be changed in production!)
 jhipster:
     security:
         authentication:
             jwt:
-                secret: this-is-spring-boot-jwt-key
+                secret: fkljdsfwe-f-sdf-erg-re-fwesfewf
+ ribbon:
+    eureka:
+        enabled: true
+    ConnectTimeout: 100000
+    ReadTimeout: 100000
+zuul:
+    host:
+        connect-timeout-millis: 100000
+        socket-timeout-millis: 100000
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 100000
