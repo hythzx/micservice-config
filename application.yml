@@ -8,7 +8,7 @@ jhipster:
         authentication:
             jwt:
                 secret: fkljdsfwe-f-sdf-erg-re-fwesfewf
- ribbon:
+ribbon:
     eureka:
         enabled: true
     ConnectTimeout: 100000
